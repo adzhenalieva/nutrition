@@ -33,7 +33,6 @@ body {
 }
 
 .carousel-item .carousel-image-custom{
-    height: 400px;
     border-radius: 10px;
 }
 
@@ -43,8 +42,10 @@ body {
 /*    url("/images/vector.png") 100% 100% no-repeat fixed;*/
 /*    background-size: auto, auto, cover; !* Меняем масштаб *!*/
 /*}*/
-@media screen and (min-width: 980px) {
-
+@media screen and (min-width: 992px) {
+    .carousel-item .carousel-image-custom{
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 1020px) {
