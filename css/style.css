@@ -16,9 +16,21 @@ body {
     font-size: 22px;
 }
 
-.nav-item .nav-link-custom{
+.navbar-light .navbar-nav .nav-item .nav-link-custom{
     font-size: 16px;
     font-weight: 500;
+    color: black;
+}
+
+.nav-item .btn-custom{
+    color: #8FC100;
+    border-color: #8FC100;
+    font-weight: bold;
+}
+
+.nav-item .btn-custom:hover{
+    background: #8FC100;
+    color: white;
 }
 
 .jumbotron .jumbotron-subtitle-custom{
@@ -36,12 +48,33 @@ body {
     border-radius: 10px;
 }
 
-/*.first-slide{*/
-/*    background: url("/images/main-pic.png") 90% 90% no-repeat fixed,*/
-/*    url("/images/pepper.png") no-repeat fixed,*/
-/*    url("/images/vector.png") 100% 100% no-repeat fixed;*/
-/*    background-size: auto, auto, cover; !* Меняем масштаб *!*/
-/*}*/
+.about-me-wrap {
+    background: url("../images/background.jpg") 0 0 no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.card-custom-title{
+    text-align: center;
+    padding: 20px 0;
+    color: #8FC100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card-custom{
+    border: none;
+    padding: 0 10px 50px 10px;
+}
+.card-custom .card-text-custom{
+    font-size: 16px;
+}
+.video-custom{
+    margin-bottom: 100px;
+}
+.programs-wrap{
+    border-top: 3px solid #8FC100;
+    padding-top: 20px;
+}
 @media screen and (min-width: 992px) {
     .carousel-item .carousel-image-custom{
         height: 400px;
