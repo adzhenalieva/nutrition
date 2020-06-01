@@ -96,7 +96,21 @@ body {
     padding: 30px;
     background: #8FC100;
 }
-
+.auth{
+    margin: 50px 0;
+}
+.save-button{
+    background: #8FC100;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+}
+.editor-custom{
+    margin: 50px 0;
+}
 @media screen and (min-width: 992px) {
     .carousel-item .carousel-image-custom {
         height: 400px;
