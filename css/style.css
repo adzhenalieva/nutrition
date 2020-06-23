@@ -111,6 +111,36 @@ body {
 .editor-custom{
     margin: 50px 0;
 }
+
+.article-section{
+    margin: 20px 0 40px;
+    border-bottom: 1px solid #D6D8E5;
+}
+.article-title{
+    font-weight: 500;
+    font-size: 26px;
+    color: #000000;
+    line-height: 36px;
+    margin: 0;
+    cursor: pointer;
+}
+.article-title:hover{
+    text-decoration: underline;
+    color: #83B100;
+}
+.articles h3 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date{
+  font-style: italic;
+    padding: 10px 0;
+}
+.no-editable{
+    pointer-events: none !important;
+}
 @media screen and (min-width: 992px) {
     .carousel-item .carousel-image-custom {
         height: 400px;
